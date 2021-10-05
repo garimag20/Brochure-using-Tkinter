@@ -1,1 +1,1 @@
-# Newspaper-using-Tkinter
+# Brochure-using-Tkinter
