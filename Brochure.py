@@ -7,9 +7,9 @@ root = Tk()
 root.title("First Project Using Tkinter")
 
 # Window Size
-root.geometry("1110x850")
-root.minsize(1110, 850)
-root.maxsize(1110, 850)
+root.geometry("1110x790")
+root.minsize(1110, 790)
+root.maxsize(1110, 790)
 
 # Heading
 Heading = Label(text="Delhi Times", font="Elephant 30 bold", bg="black",
@@ -54,4 +54,28 @@ photo1 = PhotoImage(file="news2.png")
 P2 = Label(image=photo1)
 P2.place(x=50, y=170)
 
+
+#Left text-2
+T6 = Label(text="""Janpath and Tibetan Market is a very popular and lively Delhi market has something for everyone. You'll find goods 
+from everywhere in India and Tibet here.""", bg="black", fg="white",padx = 5, pady=5)
+T6.place(x=50, y = 455)
+T7 = Label(text="""The shopping district of Chandni Chowk has been in existence for hundreds of years. The lanes of Chandni Chowk 
+are divided into bazaars with different areas of specialization.""", bg="black", fg="white",padx = 7, pady=5)
+T7.place(x=50, y = 500)
+T8 = Label(text="""Sarojini Nagar is most famous for its really cheap designer clothes and reputable brands that have been rejected from 
+export, either because of surplus quantity or small manufacturing defects.""", bg="black", fg="white",padx = 5, pady=5)
+T8.place(x=50, y = 545)
+T9 = Label(text="""Khan Market is a small U-shaped market that's one of Delhi's classiest. Bargain hunters are likely to be disappointed 
+at this market. It's got a loyal following who go there to shop at its branded outlets.""", bg="black", fg="white",padx = 5, pady=5)
+T9.place(x=50, y = 590)
+T10 = Label(text="""The hectic Lajpat Nagar market provides an interesting glimpse into Indian culture. It's one of the oldest markets in 
+India and is abuzz with middle-class Indian shoppers, all swarming around its roadside stalls and showrooms. """, bg="black", fg="white",padx = 5, pady=5)
+T10.place(x=50, y = 635)
+T11 = Label(text="""Meena Bazaar is historic market, which lines passageway into the Red Fort, used to house the most exclusive royal 
+tailors and merchants in the 17th century. It's one of the oldest markets in the city.""", bg="black", fg="white",padx = 7, pady=5)
+T11.place(x=50, y = 680)
+# image
+photo2 = PhotoImage(file="news3.png")
+P3 = Label(image=photo2)
+P3.place(x=670, y=440)
 root.mainloop()
